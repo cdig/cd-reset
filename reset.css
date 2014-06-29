@@ -95,19 +95,19 @@ textarea {
 /**** CROSS-BROWSER STANDARDIZATION ****/
 
 
-/* Set default font to Arial on Windows, Helvetica on Mac (Normalize) */
+/* Set default font to Arial on Windows, Helvetica on Mac */
 html {
 	font-family: sans-serif;
 }
 
 
-/* Remove default margin (Normalize) */
+/* Remove default margin */
 body {
 	margin: 0;
 }
 
 
-/* Set display: block (Normalize)
+/* Set display: block
  * 1. all HTML5 elements in IE 8/9
  * 2. details and summary in IE 10/11 and Firefox
  * 3. main in IE 11.
@@ -127,58 +127,58 @@ summary {
 }
 
 
-/* Fix IE 8/9. (Normalize) */
+/* Fix IE 8/9. */
 progress,
 audio {
 	display: inline-block;
 }
 
 
-/* Fix Chrome, Firefox, and Opera. (Normalize) */
+/* Fix Chrome, Firefox, and Opera. */
 progress {
 	vertical-align: baseline;
 }
 
 
-/* Prevent modern browsers from displaying audio without controls. (Normalize) */
+/* Prevent modern browsers from displaying audio without controls. */
 audio:not([controls]) {
 	display: none;
 }
 
 
-/* Address [hidden] styling not present in IE 8/9/10 (Normalize) */
+/* Address [hidden] styling not present in IE 8/9/10 */
 [hidden] {
 	display: none;
 }
 
 
-/* Hide the template element in IE 8/9/11, Safari, and Firefox < 22 (Normalize) */
+/* Hide the template element in IE 8/9/11, Safari, and Firefox < 22 */
 template {
 	display: none;
 }
 
 
-/* Fix active links having a grey background in IE 10 (Normalize) */
+/* Fix active links having a grey background in IE 10 */
 a {
 	background-color: transparent;
 }
 
 
-/* Remove those annoying link glows (Normalize) */
+/* Remove those annoying link glows */
 a:active,
 a:hover {
 	outline: 0;
 }
 
 
-/* Don't default to bolder in Firefox, Safari, and Chrome (Normalize) */
+/* Don't default to bolder in Firefox, Safari, and Chrome */
 b,
 strong {
 	font-weight: bold;
 }
 
 
-/* Standarize h1 values within section and article contexts in Firefox, Safari, and Chrome. (Normalize) */
+/* Standarize h1 values within section and article contexts in Firefox, Safari, and Chrome. */
 h1 {
 	font-size: 2em;
 }
