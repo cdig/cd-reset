@@ -92,6 +92,12 @@ textarea {
 }
 
 
+/* Remove the 2px border around iframes (Ivan) */
+iframe {
+	border: 0;
+}
+
+
 
 /**** CROSS-BROWSER STANDARDIZATION ****/
 
