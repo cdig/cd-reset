@@ -1,8 +1,18 @@
 # Reset CSS
 
-A reset stylesheet. This should probably be made easier-to-use with the help of Bower or something. That'd be good.
+A very nice reset stylesheet for CDIG's web-based media and apps.
 
+Yep, it's in Bower!
+```bash
+$ bower install cdig/reset-css
+```
+
+Note: the stylesheet is distributed as SCSS. If you need a CSS version, talk to Ivan.
 
 ## Acknowledgements
 
-Copyright (c) 2014 CD Industrial Group Inc., released under MIT license. Includes portions of [Normalize.css](https://github.com/necolas/normalize.css) by Nicolas Gallagher and Jonathan Neal.
+Includes portions of [Normalize.css](https://github.com/necolas/normalize.css) by Nicolas Gallagher and Jonathan Neal.
+
+## License
+
+Copyright (c) 2014 CD Industrial Group Inc., released under MIT license.
