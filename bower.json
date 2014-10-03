@@ -1,15 +1,11 @@
 {
-   "name": "reset-css",
-   "version": "2.0.0",
+   "name": "cd-reset",
+   "version": "2.0.2",
    "homepage": "https://github.com/cdig/reset-css",
    "authors": [
       "Ivan Reese <ivan@cdiginc.com>"
    ],
    "description": "A very nice reset stylesheet, by CD Industrial Group Inc.",
    "main": "dist/reset-css.scss",
-   "license": "MIT",
-   "_source": "git://github.com/cdig/reset-css.git",
-   "_target": "*",
-   "_originalSource": "cdig/reset-css",
-   "_direct": true
+   "license": "MIT"
 }
