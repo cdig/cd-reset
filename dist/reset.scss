@@ -38,14 +38,19 @@ textarea,
 }
 
 
-/* Style links like GUI elements (Ivan) */
+/* Give links and inputs behaviour like real GUI elements (Ivan) */
 a,
 a *,
 input[type="submit"],
 input[type="checkbox"],
 button {
-	color: inherit;
 	cursor: pointer;
+}
+
+
+/* Style links like their surrounding content (Ivan) */
+a {
+	color: inherit;
 	text-decoration: none;
 }
 
