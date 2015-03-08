@@ -44,7 +44,9 @@ textarea,
 input,
 textarea,
 [contentEditable] {
-  cursor: text;
+  &, &.selectable, .selectable & {
+    cursor: text;
+  }
 }
 
 
@@ -53,10 +55,17 @@ a,
 a *,
 label,
 button,
+input[type="button"],
 input[type="checkbox"],
+input[type="file"],
+input[type="image"],
+input[type="reset"],
+input[type="radio"],
 input[type="submit"],
 select {
-  cursor: pointer;
+  &, &.selectable, .selectable & {
+    cursor: pointer;
+  }
 }
 
 
