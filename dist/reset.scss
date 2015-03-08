@@ -3,13 +3,14 @@
 
 /**** GENERAL [optional] NICENESS ****/
 
-/* I don't like margins on headers (Ivan) */
+/* Zero-out "matter of taste" styles (Ivan) */
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 
