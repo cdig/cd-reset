@@ -1,4 +1,4 @@
-# CD-Reset
+# cdReset
 
 ## Quick Start
 
