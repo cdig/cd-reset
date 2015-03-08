@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-Ease is included in [cdFoundation](https://github.com/cdig/cd-foundation).
+cdReset is included in [cdFoundation](https://github.com/cdig/cd-foundation).
 Or, if you want to use it directly, just grab it from bower:
 
 ```bash
