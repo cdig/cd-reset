@@ -1,15 +1,8 @@
 {
   "name": "cd-reset",
   "description": "Set your stylesheets to 'stunning'.",
-  "authors": [
-    "Ivan Reese <ivan@cdiginc.com>"
-  ],
-  "main": [
-    "dist/reset-css.scss"
-  ],
-  "ignore": [
-    "**/.*"
-  ],
+  "main": "dist/cd-reset.scss",
+  "ignore": [],
   "license": "MIT",
   "private": true
 }
