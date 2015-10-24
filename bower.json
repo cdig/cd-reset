@@ -1,8 +1,11 @@
 {
   "name": "cd-reset",
   "description": "Set your stylesheets to 'stunning'.",
-  "main": "dist/cd-reset.scss",
-  "ignore": [],
+  "main": "dist/cd-reset.css",
+  "ignore": [
+    "**/*",
+    "!dist/**/*"
+  ],
   "license": "MIT",
   "private": true
 }
