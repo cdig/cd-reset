@@ -68,9 +68,7 @@ textarea,
 input,
 textarea,
 [contentEditable] {
-  &, &.selectable, .selectable & {
-    cursor: text;
-  }
+  cursor: text;
 }
 
 
@@ -87,9 +85,7 @@ input[type="radio"],
 input[type="reset"],
 input[type="submit"],
 select {
-  &, &.selectable, .selectable & {
-    cursor: pointer;
-  }
+  cursor: pointer;
 }
 
 
