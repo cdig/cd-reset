@@ -10,7 +10,7 @@ embed,
 canvas,
 progress,
 video,
-img {
+:not(p) img {
   width: 100%; /* Make responsive (Ivan) */
   vertical-align: middle; /* Remove the "baseline" space weirdness (Ivan) */
 }
