@@ -15,7 +15,6 @@ img {
   vertical-align: middle; /* Remove the "baseline" space weirdness (Ivan) */
 }
 
-
 /* Embedded contexts should be big and beefy! (Ivan) */
 iframe,
 object,
@@ -115,10 +114,12 @@ fieldset {
 /**** BEST PRACTICES ****/
 
 
-/* The page should fill the page! (Ivan) */
+/* 1. The page should fill the page! (Ivan) */
+/* 2. Don't re-scale our text on mobile (Ivan) */
 html {
   width: 100%;
   height: 100%;
+  text-size-adjust: none;
 }
 
 
