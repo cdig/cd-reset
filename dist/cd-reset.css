@@ -37,17 +37,19 @@ p {
   margin: 0;
 }
 
-/* Disable text selection for UI... (Ivan) */
+
+/* By default, assume we're building a GUI... (Ivan) */
 * {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   cursor: default;
+  touch-action: manipulation;
 }
 
 
-/* ...but keep selection enabled for text! (Ivan) */
+/* ...but respect large blocks of text! (Ivan) */
 p,
 p *,
 input,
@@ -60,6 +62,7 @@ textarea,
   -ms-user-select: text;
   user-select: text;
   cursor: inherit;
+  touch-action: auto;
 }
 
 
