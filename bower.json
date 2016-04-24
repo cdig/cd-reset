@@ -1,6 +1,9 @@
 {
   "name": "cd-reset",
   "description": "Set your stylesheets to 'stunning'.",
+  "dependencies": {
+    "normalize-css": "^4.1.1"
+  },
   "main": "dist/cd-reset.css",
   "ignore": [
     "**/*",
