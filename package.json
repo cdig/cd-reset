@@ -3,12 +3,13 @@
   "version": "3.0.0",
   "description": "Set your stylesheets to 'stunning'.",
   "dependencies": {
-    "normalize-css": "^4.1.1"
+    "normalize.css": "^4.1.1"
   },
   "main": "dist/cd-reset.css",
-  "ignore": [
-    "**/*",
-    "!dist/**/*"
+  "style": "dist/cd-reset.css",
+  "files": [
+    "LICENSE",
+    "dist/cd-reset.css"
   ],
   "license": "MIT",
   "private": true
