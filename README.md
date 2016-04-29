@@ -5,4 +5,3 @@ We ask for Normalize as a bower dependency, but if you don't install through bow
 
 ## License
 Copyright (c) 2014-2016 CD Industrial Group Inc., released under MIT license.
-Some portions Copyright (c) Nicolas Gallagher and Jonathan Neal, released under MIT license.
