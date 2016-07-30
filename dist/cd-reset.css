@@ -77,6 +77,8 @@ textarea,
 /* Links and inputs deserve a pointer (Ivan) */
 a,
 a *,
+.selectable a,
+.selectable a *,
 label,
 button,
 input[type="button"],
