@@ -1,9 +1,9 @@
 {
   "name": "cd-reset",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Set your stylesheets to 'stunning'.",
   "dependencies": {
-    "normalize.css": "^4.1.1"
+    "normalize.css": "^7.0.0"
   },
   "main": "dist/cd-reset.css",
   "style": "dist/cd-reset.css",
