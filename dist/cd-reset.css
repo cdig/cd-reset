@@ -8,10 +8,14 @@ iframe,
 object,
 embed,
 canvas,
-progress,
-video,
-:not(p) img {
+progress {
   width: 100%; /* Make responsive (Ivan) */
+  vertical-align: middle; /* Remove the "baseline" space weirdness (Ivan) */
+}
+
+video,
+img {
+  max-width: 100%; /* Make somewhat responsive (Ivan) */
   vertical-align: middle; /* Remove the "baseline" space weirdness (Ivan) */
 }
 
