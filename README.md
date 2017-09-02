@@ -1,4 +1,4 @@
-# cd-reset v4
+# cd-reset v4.1
 
 A reset stylesheet, with our own CDIG-specific defaults.
 We ask for Normalize as an npm dependency, but if you don't install through npm, you should make sure you grab Normalize too.
