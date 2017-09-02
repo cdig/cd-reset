@@ -1,6 +1,6 @@
 {
   "name": "cd-reset",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Set your stylesheets to 'stunning'.",
   "dependencies": {
     "normalize.css": "^7.0.0"
